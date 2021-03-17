@@ -1,0 +1,14 @@
+NOM:Kaissane 
+PRENOM:SAID AHMED
+&
+NOM:Benimane 
+PRENOM:MOHAMED
+
+On a choisis la théme numero 2(site de tourisme).
+Presentons les selecteur CSS complexe qu'on a utilisé:
+
+-webkit-transform: on l'a utilisé sur la partie Hôtel et la partie Accueil , cette selecteur permet de chager quelque chose comme nous on l a utilisé pour les images alors , nos images ça va changer de format 
+
+-webkit-transition:: on l'a utilisé sur la partie Hôtel et la partie Accueil, ce selecteur permet de donner le temps ou l'element que tu as selectioné va faire? comme nous on l'a utilisé sur les image , on a fait le temps quand tu va mettre le souris dans l'image.
+
+@keyframes: on l'a utilisé sur la partie Hôtel et la partie Accueil, ce selecteur permet de faire un slider ou un diaporama ,nous on l' a utiliser sur la partie Accueil pour faire un diapo et sur la partie hôtel.
