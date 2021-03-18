@@ -1,0 +1,142 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-image:url("../image/MacGyver.jpeg");
+    
+    
+}
+
+.contient{
+   height: auto;
+}
+.menu{
+   float:right;
+   padding-right: 140px;
+}
+.menu li{
+   display: inline-block;
+   margin: 10px;
+}
+.menu li a{
+   text-decoration: none;
+   color:black;
+   text-transform: uppercase;
+  
+}
+a:hover{
+   color:rgb(211, 63, 63);
+   border-bottom: 3px rgb(211, 63, 63) solid;
+  
+   
+
+}
+nav{
+   background-color: #80deea;
+   padding-left: 80px;
+   width: 100%;
+   position: fixed;
+   top: 0px;
+   
+}
+form{
+ border: 2px solid white;
+ width: 660px;
+ margin: 100px;
+ margin-left: 450px;
+ color: black!important;
+margin-top: 150px;
+
+}
+.radio{
+  margin:0 20px; 
+  color:white;
+}
+.radio .btn
+{
+  margin: 20px 0px 20px 10px;
+  box-shadow:none;
+}
+.radio.btn::after
+{   
+  content: '';
+  height: 15px;
+  width: 15px;
+  top:-2px;
+  left:-1px;
+  background-color:white;
+  position:relative;
+  display:inline-block;
+  border:3px solid white; 
+  visibility: visible;
+  border-radius:50% ;
+
+
+}
+
+.radio.btn:checked::after
+{
+  content:'';
+  background-color:#000;
+  transition: 0.5s;
+}
+.radio span{
+  color:black;
+  margin-right: 5px;
+  font-size: 16px;
+}
+.element{
+  padding:0 20px 20px;
+  
+}
+.element label 
+{
+   margin-bottom: 5px;
+   margin-top: 10px;
+   font-size: 16Px;
+   color:white;
+   display: block;
+}
+input{
+  background: transparent;
+  font-size: 16px!important;
+  border: 2px solid white;
+  border-radius: 0!important;
+  color: white!important;
+  box-shadow: none!important;
+
+}
+textarea{
+    border: 2px solid white;
+}
+.bou{
+  height: 30px;
+  width: 620px; 
+}
+.input
+{
+   width: 151px;
+   display: inline-block;
+}
+.date{
+  height: 30px;
+  width: 140px;
+}
+input::placeholder{
+   color:white!important ;
+}
+
+
+#bouton{
+   
+  background: #00e2ff87!important;
+}
+#bouton:hover
+{
+   background: #fff!important;
+   color:#000!important;
+   transition: -0.5s;
+
+}
+
+

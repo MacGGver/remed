@@ -1,0 +1,110 @@
+body{
+	padding-top: 70px;
+}
+.padding .lac img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+.padding .lac :hover img{
+    -webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+.padding .lac1 img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+.padding .lac1 :hover img{
+    -webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+
+.lac{
+	width: 20%;
+	background-color: aqua;
+	border: 2px solid black ;
+	margin: 10px;
+	float: left;
+}
+.lac .p1{
+	text-align: justify;
+	padding: 10px;
+}
+
+.lac1{
+	width: 20%;
+	background-color: aqua;
+	border: 2px solid black ;
+	margin: 10px;
+	float: left;
+	margin-left: 100px;
+}
+.lac1 .p1{
+	text-align: justify;
+	padding: 10px;
+}
+.kar{
+	display: block;
+}
+
+.img2{
+	width: 28%;
+	border: 2px solid black ;
+	margin: 10px;
+	margin-left: 60px;
+	float: left;
+}
+ .p2{
+ 	width:400px;
+ 	height:300px;
+ 	margin-top: 10px;
+	text-align: justify;
+	padding: 15px;
+	border: 2px solid black ;
+	float: left;
+}
+.video{
+	width: 30%;
+	border: 2px solid black ;
+	margin: 10px;
+}
+footer{
+    display: table-row;
+    height: 1px;
+    background-color: #222222;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+
+   
+}
+.text{
+    float: left;
+    padding-right: 330px;
+    margin: 10px;
+    padding-left: 40px
+}
+.img{
+    float: left;
+    padding-right: 400px;
+    margin: 10px
+}
+.icons{
+    margin-top : -50px;
+    float: right;
+    margin-right: 40px;
+}
+.icons a{
+    font-size: 23px;
+    margin: 6px;
+    text-decoration: none;
+    color: white;
+
+}

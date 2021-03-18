@@ -1,0 +1,162 @@
+body{ background-color: white;
+    
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: table;
+    height: 100%;
+    width: 100%;
+    padding-top: 60px;
+
+}
+#principal{ 
+     padding: 0%; margin:0;
+    
+
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#visite{
+
+    background-color: black; border: 2px solid black; width: 367px ; height: 56px;
+    
+text-align: center;}
+
+#principal a{
+text-decoration: none;
+font-family: cursive; font-weight: 200px; color:white;}
+#principal a:hover{
+    background-color:white; color: black;
+}
+
+#menu{
+
+    float: left;
+    border: 2px solid black; width: 370px;
+    border-radius: 2px;
+    margin-left: 100px;
+    margin-top: 43px;
+  
+
+
+}
+
+#principal #menu img{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+#principal #menu :hover img{
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+#visite{
+    border:2px solid black;width: 367px; height: 56px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+#visite1{
+    border:2px solid black;width: 367px; height: 56px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+#visite2{
+    border:2px solid black;width: 367px; height: 56px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.contient{
+    height: auto;
+}
+.menu{
+    float:right;
+    padding-right: 160px;
+}
+.menu li{
+    display: inline-block;
+    margin: 10px;
+}
+.menu li a{
+     text-transform: uppercase;;
+}
+ body ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+   
+}
+body ul li a:hover{
+    color:rgb(211, 63, 63);
+    border-bottom: 3px rgb(211, 63, 63) solid;
+   
+    
+
+}
+nav{
+    background-color: #80deea;
+    padding-left: 80px;
+    width: 100%;
+    position: fixed;
+    top:0px;
+}
+footer{
+    display: table-row;
+    height: 1px;
+    background-color: #222222;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+
+
+   
+}
+.text{
+    float: left;
+    padding-right: 330px;
+    margin: 10px;
+    padding-left: 40px
+}
+.img{
+    float: left;
+    padding-right: 400px;
+    margin: 10px
+}
+.icons{
+    margin-top : -50px;
+    float: right;
+    margin-right: 40px;
+}
+.icons a{
+    font-size: 23px;
+    margin: 6px;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

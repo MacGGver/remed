@@ -1,0 +1,151 @@
+ body{
+     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+     background-size: cover;
+     background-position: center; 
+     background-image:url("../image/1_pTY3hMUGYUNa8lHadBybpg.jpeg");
+     
+ }
+ 
+.contient{
+    height: auto;
+}
+.menu{
+    float:right;
+    padding-right: 140px;
+}
+.menu li{
+    display: inline-block;
+    margin: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+   
+}
+ a:hover{
+    color:rgb(211, 63, 63);
+    border-bottom: 3px rgb(211, 63, 63) solid;
+   
+	
+
+}
+nav{
+    background-color: #80deea;
+    padding-left: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    
+}
+form{
+  border: 1px solid white;
+  width: 660px;
+  margin: 100px;
+  margin-left: 450px;
+  
+}
+.radio{
+   margin:0 20px; 
+   color: white;
+}
+.radio .btn
+{
+   margin: 20px 0px 20px 10px;
+   box-shadow:none;
+}
+.radio.btn::after
+{   
+   content: '';
+   height: 15px;
+   width: 15px;
+   top:-2px;
+   left:-1px;
+   background-color: #fff;
+   position:relative;
+   display:inline-block;
+   border:3px solid #fff; 
+   visibility: visible;
+   border-radius:50% ;
+
+
+}
+
+.radio.btn:checked::after
+{
+   content:'';
+   background-color:#000;
+   transition: 0.5s;
+}
+.radio span{
+   color:#fff;
+   margin-right: 5px;
+   font-size: 12px;
+}
+.element{
+   padding:0 20px 20px;
+   
+}
+.element label 
+{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 13Px;
+    color:#fff;
+    display: block;
+}
+input{
+   background: transparent;
+   font-size: 13px!important;
+   border: 1px solid white;
+   border-radius: 0!important;
+   color: #fff!important;
+   background: transparent!important;
+   box-shadow: none!important;
+
+}
+.bou{
+   height: 30px;
+   width: 620px; 
+}
+.input
+{
+    width: 151px;
+    display: inline-block;
+}
+.date{
+   height: 30px;
+   width: 140px;
+}
+input::placeholder{
+    color:#fff!important ;
+}
+select
+{
+   
+  background: transparent;
+   font-size: 12px!important;
+   border: 1px solid white;
+   border-radius: 0!important;
+   color: #fff!important;
+   background: transparent!important;
+   box-shadow: none!important;
+   width: 295px!important;
+}
+option{
+    color: black!important;
+    
+}
+
+#bouton{
+    
+   background: #00e2ff87!important;
+}
+#bouton:hover
+{
+    background: #fff!important;
+    color:#000!important;
+    transition: -0.5s;
+
+}
+

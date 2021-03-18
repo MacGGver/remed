@@ -1,0 +1,203 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+    font-family: Arial ;
+    font-size: 15px;
+    padding-top: 70px;
+}
+.contient{
+    height: auto;
+}
+.menu{
+    float:right;
+    padding-right: 160px;
+}
+.menu li{
+    display: inline-block;
+    margin: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+   
+}
+.menu li a:hover{
+    color:rgb(211, 63, 63);
+    border-bottom: 3px rgb(211, 63, 63) solid;
+   
+	
+
+}
+
+.slider{
+    width: 400px;
+    overflow: hidden;
+}
+.slides{
+    width: calc(400px * 4);
+    animation: glisse 10s infinite;
+}
+.slide{
+    float: left;
+}
+@keyframes glisse {
+    0%{
+        transform: translateX(0);
+    }
+     10%{
+        transform: translateX(0);
+    }
+     25%{
+        transform: translateX(-400px);
+    }
+    35%{
+        transform: translateX(-400px);
+    }
+     50%{
+        transform: translateX(-800px);
+    }
+     60%{
+        transform: translateX(-800px);
+    }
+    75%{
+        transform: translateX(-1200px);
+    }
+    85%{
+        transform: translateX(-1200px);
+    }
+     100%{
+        transform: translateX(0);
+    }
+}
+nav{
+    padding-left: 80px;
+    background-color: #80deea;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+.padding{
+    padding: 20px;
+}
+.ritadj{
+    width: 300px;
+    float: left;
+    margin-left: 23px;
+    margin-top: 23px;
+   
+}
+.padding .ritadj1{
+   
+    float: left;
+    margin-top: 23px;
+}
+.padding .ritadj1 img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.padding .ritadj1 :hover img{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.padding .celacante1 img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+h4{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1); 
+}
+h4:hover{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    color: blue;
+}
+p{
+    font-family: cursive;
+}
+.padding .celacante1:hover img{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.padding .ritadj3 img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.padding .ritadj3 :hover img{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.ritadj3{
+    float: left;
+    margin-left: 24px;
+    margin-top: 23px;
+}
+  h4{
+    color:rgb(211, 63, 63);
+    
+
+}
+a{
+    text-decoration: none;
+}
+.celacante1{
+  float: left;
+  margin-left: 23px;
+  margin-top: 23px;
+}
+.celacante{
+   
+    width: 300px;
+    float: left;
+    margin-left: 23px;
+    margin-top: 23px;
+}
+select{
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+    border: solid 3px brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    display: table-row;
+    height: 1px;
+    background-color: #222222;
+    color: white;
+   
+}
+.text{
+    float: left;
+    padding-right: 330px;
+    margin: 10px;
+    padding-left: 40px
+}
+.img{
+    float: left;
+    padding-right: 350px;
+    margin: 10px
+}
+.icons{
+    padding-top : 20px;
+    margin-right: 10px;
+}
+.icons a{
+    font-size: 23px;
+    margin: 6px;
+    text-decoration: none;
+    color: white;
+
+}
